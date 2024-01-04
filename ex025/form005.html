@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formu</title>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="formulario.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sex" id="idmas" value="M"> <label for="idmas">Marculino</label>
+            <input type="radio" name="sex" id="idfem" checked value="F"> <label for="idfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="idfut"> <label for="idfut">futebas</label> <br>
+            <input type="checkbox" name="nata" id="idnata"> <label for="idnata">natação</label> <br>
+            <input type="checkbox" name="vol" id="idvol"> <label for="idvol">volleibol</label> <br>
+            <input type="checkbox" name="bas" id="idbas"> <label for="idbas">basquete</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" velue="reset">
+        </p>
+    </form>
+</body>
+</html>
