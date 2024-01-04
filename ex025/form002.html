@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="formulario.php" method="post">
+        <p>
+            <label for="idusu">Usuario:</label>
+            <input type="text" name="nome" id="idusu" 
+            required minlength="5" 
+            maxlength="15" 
+            size="5" 
+            placeholder="nome do usuario"
+            autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="nome" id="idusu" required minlength="8" maxlength="50" placeholder="com @ , . $ % ¨ para criar uma senha forte"
+            autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
